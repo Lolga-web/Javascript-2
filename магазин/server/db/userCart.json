@@ -1,0 +1,18 @@
+{
+    "amount": 460.6,
+    "countGoods": 2,
+    "contents": [
+        {
+            "id_product": 456,
+            "product_name": "Windbreaker Adidas",
+            "price": 310.05,
+            "quantity": 1
+        },
+        {
+            "id_product": 355,
+            "product_name": "Shorts Adidas",
+            "price": 150.55,
+            "quantity": 1
+        }
+    ]
+}
