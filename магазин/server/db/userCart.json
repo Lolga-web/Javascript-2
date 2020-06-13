@@ -1,0 +1,62 @@
+{
+    "amount": 460.6,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 2,
+            "id_product": 457,
+            "product_name": "T-Shirt Adidas",
+            "price": 190,
+            "image": "images/products/t-shirt_adidas.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 456,
+            "product_name": "Windbreaker Adidas",
+            "price": 310,
+            "image": "images/products/windbreaker_adidas.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 123,
+            "product_name": "Shorts Nike",
+            "price": 150,
+            "image": "images/products/shorts_nike.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "T-Shirt Mango",
+            "price": 150,
+            "image": "images/products/t-shirt_mango.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "T-Shirt Adidas",
+            "price": 190,
+            "image": "images/products/t-shirt_adidas.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 154,
+            "product_name": "T-Shirt Nike",
+            "price": 150,
+            "image": "images/products/t-shirt_nike.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 154,
+            "product_name": "T-Shirt Nike",
+            "price": 150,
+            "image": "images/products/t-shirt_nike.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "T-Shirt Adidas",
+            "price": 190,
+            "image": "images/products/t-shirt_adidas.jpg"
+        }
+    ]
+}

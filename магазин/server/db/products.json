@@ -1,0 +1,50 @@
+[
+  {
+    "id_product": 124,
+    "product_name": "T-Shirt Mango",
+    "price": 150,
+    "image": "images/products/t-shirt_mango.jpg"
+  },
+  {
+    "id_product": 457,
+    "product_name": "T-Shirt Adidas",
+    "price": 190,
+    "image": "images/products/t-shirt_adidas.jpg"
+  },
+  {
+    "id_product": 154,
+    "product_name": "T-Shirt Nike",
+    "price": 150,
+    "image": "images/products/t-shirt_nike.jpg"
+  },
+  {
+    "id_product": 456,
+    "product_name": "Windbreaker Adidas",
+    "price": 310,
+    "image": "images/products/windbreaker_adidas.jpg"
+  },
+  {
+    "id_product": 355,
+    "product_name": "Shorts Adidas",
+    "price": 150,
+    "image": "images/products/shorts_adidas.jpg"
+  },
+  {
+    "id_product": 284,
+    "product_name": "Vest Mango",
+    "price": 190,
+    "image": "images/products/vest_mango.jpg"
+  },
+  {
+    "id_product": 848,
+    "product_name": "Dress Mango",
+    "price": 310,
+    "image": "images/products/dress_mango.jpg"
+  },
+  {
+    "id_product": 123,
+    "product_name": "Shorts Nike",
+    "price": 150,
+    "image": "images/products/shorts_nike.jpg"
+  }
+]

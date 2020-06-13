@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AVIATO-Product-details</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container app">
+		<header>
+			<div class="b-phone">
+				<i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+				+880 1747 0280XX
+			</div>
+			<a href="index.html" class="b-logo">AVIATO</a>
+			<cart ref="cart"></cart>
+			<!-- <div class="b-cart">
+				<i class="fa fa-shopping-bag fa-lg" aria-hidden="true"></i>
+				<p class="b-cart__quantity">&#160;(0)</p> -
+				<p class="b-cart__count">$0.00</p>
+			</div> -->
+		</header>
+		<nav>
+			<ul class="b-navList">
+				<li class="b-navList__item"><a href="index.html" class="b-navList__link">home</a></li>
+				<li class="b-navList__item"><a href="product-list.html" class="b-navList__link">catalog</a></li>
+				<li class="b-navList__item"><a href="#" class="b-navList__link">delivery</a></li>
+				<li class="b-navList__item"><a href="#" class="b-navList__link">payment</a></li>
+				<li class="b-navList__item"><a href="#" class="b-navList__link">checkout</a></li>
+				<li class="b-navList__item"><a href="#" class="b-navList__link">contact</a></li>
+			</ul>
+		</nav>
+		<main class="app">
+			<section class="b-titleBar">
+				<h2 class="b-titleBar__title">Product Details</h2>
+				<p class="b-titleBar__text">Home - Shop - Product Name</p>
+			</section>
+			<section class="b-productDetails">
+
+				<!-- <product-details ref="details"></product-details> -->
+
+				<!-- <div class="b-productDetails__img">
+					<img src="http://placehold.it/580x600" alt="img">
+				</div>
+				<div class="b-productDetails__text">
+					<h3 class="b-productDetails__name">Gravida Est Quis Euismod</h3>
+					<p class="b-productDetails__price">$155.99</p>
+					<p class="b-productDetails__description">
+						But I must explain to you how all this mistaken idea of ouncing and aising pain was born and I will give you a complete count of ut I must explain to you how all this aken idea of enouncing pleasure born and I will give you a complete account of
+					</p>
+					<button class="b-productDetails__buy-btn">Add To Cart</button>
+				</div> -->
+
+			</section>
+			<section class="b-popularProducts">
+				<error ref="error"></error>
+        		<products ref="products"></products>
+			</section>
+		</main>
+		<footer>
+			<div class="b-info">
+				<ul class="b-info__list">
+					<li class="b-info__item"><a href="#" class="b-info__link">Contact US</a></li>
+					<li class="b-info__item"><a href="#" class="b-info__link">Shipping & Returns</a></li>
+					<li class="b-info__item"><a href="#" class="b-info__link">Gift Cards</a></li>
+					<li class="b-info__item"><a href="#" class="b-info__link">The Concept</a></li>
+					<li class="b-info__item"><a href="#" class="b-info__link">Privacy</a></li>
+
+					<li class="b-info__item"><a href="#" class="b-info__link">About US</a></li>
+
+					<li class="b-info__item"><a href="#" class="b-info__link">Press</a></li>
+					<li class="b-info__item"><a href="#" class="b-info__link">Artists</a></li>
+				</ul>
+				<div class="b-info__subscription">
+					<div class="b-info__subscription-title">Stay In Touch</div>
+	                <form class="b-info__form">
+	                    <input class="b-info__form-email" type="text" name="email">
+	                    <input class="b-info__form-button" type="submit" value="Subscribe">
+	                </form>
+				</div>
+			</div>
+			<div class="b-footerMenu">
+				<div class="b-footerMenu__rights">Copyright © 2017</div>
+				<ul class="b-footerMenu__list">
+					<li class="b-footerMenu__item"><a href="#" class="b-footerMenu__link">Blog</a></li>
+					<li class="b-footerMenu__item"><a href="#" class="b-footerMenu__link">About Us</a></li>
+					<li class="b-footerMenu__item"><a href="#" class="b-footerMenu__link">Contact US</a></li>
+					<li class="b-footerMenu__item"><a href="#" class="b-footerMenu__link">FAQ</a></li>
+					<li class="b-footerMenu__item"><a href="#" class="b-footerMenu__link">My Account</a></li>
+				</ul>
+				<div class="b-footerMenu__socials">
+					<a class="b-socials__list" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+	                <a class="b-socials__list" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	                <a class="b-socials__list" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+	                <a class="b-socials__list" href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+	                <a class="b-socials__list" href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="js/ProductComponent.js"></script>
+	<script src="js/CartComponent.js"></script>
+	<script src="js/FilterComp.js"></script>
+	<script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
